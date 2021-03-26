@@ -1,0 +1,64 @@
+1.8 [STABLE] - 2019:
+
+Additions:
+The token grabber has been updated for the new Discord patch.
+HTTPS support for proxies.
+A new folder called "Settings" has been added, which just holds a few files.
+
+Improvements/Optimizations:
+Token checker has been optimized once again.
+It's .NET version has also been changed to "4.6" because of it being the most common major version among Windows 10 machines.
+
+Disclaimers:
+Proxies are still quite inefficient, however, we are planning to make it support SOCKS proxies.
+The token grabber is not 100% reliable, but it should work in about 96/100 cases.
+
+1.8 [BETA] - 2019:
+
+Improvements/Optimizations:
+Paralyzation method has been improved on greatly. This can fx. me noticed in the "flooder" attack.
+Please keep in mind however, that this update also makes proxy-support be incredible inefficient, which will hopefull be fixed in the stable release.
+Token checker was improved on heavily (including bug fixes, and better checking).
+
+Bug fixes:
+""Get token info" not working with hidden tokens" bug has been fixed.
+Various other minor bug fixes.
+
+Removed:
+Token grabber and "log into token" features were removed due to Discord's new update.
+Useless junk resources (mostly images) have been removed, and so the executable should load sightly faster.
+
+Disclaimers:
+Using proxies in this version will likely cause the program to malfunction at some point or another.
+There is still stuff that needs to be fixed, so don't expect a generally flawless program.
+We are currently experiencing a bug where "color2" will auto set itself as white. To fix this, just go to settings, press "load" in the themes section, and load "DicordHaxx.dht"
+
+In the next update:
+We are currently working on a working token grabber, which will likely be in the next update.
+
+
+
+1.7 [STABLE] - 2019:
+A major change to the token grabber has been made: it now gets sent by a discord webhook.
+The preview available when making a theme has been improved on heavily, to make it look more like the casual DiscordHaxx UI.
+An option to add tokens not from a list, but just from text has been added.
+The "recover" button has been removed from the "Tokens" tab.
+Heavy optimizations towards DiscordHaxx Shield, to make it faster, and so therefor attacks can be started off much quicker.
+The settings now use JSON, which is gonna make them a lot more stable.
+Small changes to the directories.
+Other minor UI changes.
+
+1.7(.1) [BETA] - 2019:
+The token grabber now no longer shows a console, but instead just runs completely in the background.
+The token puller has been made easier to use, because it now shows a dialog at the start where the user can choose a path to the database file.
+Small optimizations towards the attacks.
+
+1.7 [BETA] - 2019:
+Proxy support is now here, meaning that you can use proxies for the different attacks.
+The token grabbing feature has been added.
+You can now log into tokens, and view their information.
+Partitions are now removed, because of them basically being useless.
+Multiple bug fixes
+Minor UI changes.
+More coming in the stable/official release :).
+Also special thanks to TestSubject1029 and Jenz for testing the beta version through.
